@@ -29,7 +29,7 @@ Copy
 Edit
 git checkout -b fitur/form-automation
 
-Commit & Push Perubahan
+Commit dan Push Perubahan
 bash
 git add .
 git commit -m "feat: automation for text box form"
