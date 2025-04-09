@@ -19,3 +19,19 @@ Repositori ini berisi skrip otomatisasi pengujian menggunakan **Katalon Studio**
 git clone https://github.com/alfinseptiady/Testing.git
 cd nama-repo-katalon
 
+Menarik Perubahan Terbaru
+bash
+git pull origin main
+
+🔀 Membuat Branch Baru
+bash
+Copy
+Edit
+git checkout -b fitur/form-automation
+
+📥 Commit & Push Perubahan
+bash
+git add .
+git commit -m "feat: automation for text box form"
+git push origin fitur/form-automation
+
