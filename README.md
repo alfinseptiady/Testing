@@ -24,9 +24,6 @@ bash
 git pull origin main
 
 Membuat Branch Baru
-bash
-Copy
-Edit
 git checkout -b fitur/form-automation
 
 Commit dan Push Perubahan
