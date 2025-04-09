@@ -1,10 +1,10 @@
 Testing atuomation dengan katalon studio dengan web url ini https://demoqa.com/
 
-# 🔍 Belajar Katalon Studio dengan demoqa.com
+# Belajar Katalon Studio dengan demoqa.com
 
 Repositori ini berisi skrip otomatisasi pengujian menggunakan **Katalon Studio** dengan situs [demoqa.com](https://demoqa.com) sebagai studi kasus.
 
-## 📌 Tools yang Digunakan
+## Tools yang Digunakan
 - Katalon Studio (versi terbaru)
 - Git + GitHub
 - demoqa.com (sebagai web target uji coba)
@@ -12,7 +12,7 @@ Repositori ini berisi skrip otomatisasi pengujian menggunakan **Katalon Studio**
 
 ---
 
-## 🚀 Langkah Awal
+## Langkah Awal
 
 ### 1. Clone Repository
 ```bash
@@ -23,13 +23,13 @@ Menarik Perubahan Terbaru
 bash
 git pull origin main
 
-🔀 Membuat Branch Baru
+Membuat Branch Baru
 bash
 Copy
 Edit
 git checkout -b fitur/form-automation
 
-📥 Commit & Push Perubahan
+Commit & Push Perubahan
 bash
 git add .
 git commit -m "feat: automation for text box form"
