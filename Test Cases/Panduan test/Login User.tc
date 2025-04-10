@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test case pertama</name>
+   <name>Login User</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>af44a540-fe26-4a89-bdce-134985e38167</testCaseGuid>
+   <testCaseGuid>c4faef7f-acb0-4748-b623-1e6145c4eb3c</testCaseGuid>
 </TestCaseEntity>

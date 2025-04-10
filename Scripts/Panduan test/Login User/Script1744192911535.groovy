@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://demoqa.com/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Book Store/Menu_Book Store Application'))
+
+WebUI.scrollToElement(findTestObject('Book Store/button login menu'), 10)
+
+WebUI.click(findTestObject('Book Store/button login menu'))
+
+WebUI.setText(findTestObject('Book Store/input_UserName'), 'testing123')
+
+WebUI.setText(findTestObject('Book Store/input_Password'), 'Testing@123')
+
+WebUI.click(findTestObject('Book Store/button login'))
+
