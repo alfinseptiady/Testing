@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Panduan test/Login User'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Book Store/menu book store'))
+
+WebUI.setText(findTestObject('Book Store/search box book'), 'git')
+
